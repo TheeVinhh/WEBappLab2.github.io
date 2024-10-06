@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .about-section {
+            margin-bottom: 40px;
+        }
+
+        .about-section h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .about-section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .personal-info, .academic-info {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+            margin-top: 20px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav {
+            margin-bottom: 30px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Progress</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="cv.html">CV</a>
+        <a href="experience.html">Gaming</a>
+        <a href="progress.html">Progress</a>
+    </div>
+    <div class="container">
+        <header>
+            <h1>University Course List</h1>
+        </header>
+        <main>                                                                                
+            <h2>Credit Details</h2>
+            <p>Total Credits Required: <strong>151</strong></p>
+            <p>Credits Completed: <strong>74</strong></p>
+            <p>Credits Remaining: <strong>77</strong></p>
+
+            <h2>Progress</h2>
+            <div class="progress-container">
+                <div class="progress-bar" style="width: 47%;"></div>
+            </div>
+            <p><strong>47%</strong> of total credits completed.</p>
+                                                        
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Course Name</th>
+                        <th>Credits</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CH011IU</td>
+                        <td>Chemistry for Engineers</td>
+                        <td>3</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>CH012IU</td>
+                        <td>Chemistry Laboratory</td>
+                        <td>1</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>EN007IU</td>
+                        <td>Writing AE1</td>
+                        <td>2</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>EN008IU</td>
+                        <td>Listening AE1</td>
+                        <td>2</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT064IU</td>
+                        <td>Introduction to Computing</td>
+                        <td>3</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>MA001IU</td>
+                        <td>Calculus 1</td>
+                        <td>4</td>
+                        <td><span class="in-progress">In Progress</span></td>
+                    </tr>
+                    <tr>
+                        <td>PH013IU</td>
+                        <td>Physics 1</td>
+                        <td>2</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>PH014IU</td>
+                        <td>Physics 2</td>
+                        <td>2</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>PT001IU</td>
+                        <td>Physical Training 1</td>
+                        <td>3</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>EN011IU</td>
+                        <td>Writing AE2</td>
+                        <td>2</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>EN012IU</td>
+                        <td>Speaking AE2</td>
+                        <td>2</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT116IU</td>
+                        <td>C/C++ Programming</td>
+                        <td>4</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>MA003IU</td>
+                        <td>Calculus 2</td>
+                        <td>4</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>PE008IU</td>
+                        <td>Critical Thinking</td>
+                        <td>3</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>PH015IU</td>
+                        <td>Physics 3</td>
+                        <td>3</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>PH016IU</td>
+                        <td>Physics 3 Laboratory</td>
+                        <td>1</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>IT091IU</td>
+                        <td>Computer Networks</td>
+                        <td>4</td>
+                        <td><span class="in-progress">In Progress</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT067IU</td>
+                        <td>Digital Logic Design</td>
+                        <td>3</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT069IU</td>
+                        <td>Object-Oriented Programming</td>
+                        <td>4</td>
+                        <td><span class="in-progress">In Progress</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT099IU</td>
+                        <td>Digital Logic Design Laboratory</td>
+                        <td>1</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT153IU</td>
+                        <td>Discrete Mathematics</td>
+                        <td>3</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>MA023IU</td>
+                        <td>Calculus 3</td>
+                        <td>4</td>
+                        <td><span class="plan">Planned</span></td>
+                    </tr>
+                    <tr>
+                        <td>PH012IU</td>
+                        <td>Physics 4</td>
+                        <td>2</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>PE015IU</td>
+                        <td>Philosophy Marx - Lenin</td>
+                        <td>3</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>IT013IU</td>
+                        <td>Algorithms and Data Structures</td>
+                        <td>4</td>
+                        <td><span class="planned">Planned</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT079IU</td>
+                        <td>Principles of Database Management</td>
+                        <td>4</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT089IU</td>
+                        <td>Computer Architecture</td>
+                        <td>4</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT125IU</td>
+                        <td>System & Network Administration</td>
+                        <td>4</td>
+                        <td><span class="Planned">Planned</span></td>
+                    </tr>
+                    <tr>
+                        <td>PE016IU</td>
+                        <td>Marxist – Leninist Political Economy</td>
+                        <td>2</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+
+        
+                    <tr>
+                        <td>IT139IU</td>
+                        <td>Scalable and Distributed Computing</td>
+                        <td>4</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT017IU</td>
+                        <td>Operating Systems</td>
+                        <td>4</td>
+                        <td><span class="plan">Planned  </span></td>
+                    </tr>
+                    <tr>
+                        <td>IT131IU</td>
+                        <td>Theoretical Models in Computing</td>
+                        <td>4</td>
+                        <td><span class="plan">Planned</span></td>
+                    </tr>
+                    <tr>
+                        <td>MA026IU</td>
+                        <td>Probability, Statistic & Random Process</td>
+                        <td>3</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>PE020IU</td>
+                        <td>Engineering Ethics and Professional Skills</td>
+                        <td>3</td>
+                        <td><span class="completed">Completed</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>IT096IU</td>
+                        <td>Net-Centric Programming</td>
+                        <td>4</td>
+                        <td><span class="planned">Planned</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT093IU</td>
+                        <td>Web Application Development</td>
+                        <td>4</td>
+                        <td><span class="in-progress">In Progress</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT094IU</td>
+                        <td>Information System Management</td>
+                        <td>4</td>
+                        <td><span class="Planned">Planned</span></td>
+                    </tr>
+
+                    <!-- Year 3 Summer -->
+                    <tr>
+                        <td>IT082IU</td>
+                        <td>Internship</td>
+                        <td>3</td>
+                        <td><span class="planned">Planned</span></td>
+                    </tr>
+
+                    <!-- Year 4 Semester 1 -->
+                    <tr>
+                        <td>IT083IU</td>
+                        <td>Special Study of the Field</td>
+                        <td>3</td>
+                        <td><span class="planned">Planned</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT120IU</td>
+                        <td>Entrepreneurship</td>
+                        <td>3</td>
+                        <td><span class="in-progress">In progress</span></td>
+                    </tr>
+                    <tr>
+                        <td>IT117IU</td>
+                        <td>System and Network Security</td>
+                        <td>4</td>
+                        <td><span class="planned">Planned</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>IT058IU</td>
+                        <td>Thesis</td>
+                        <td>10</td>
+                        <td><span class="planned">Planned</span></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <p>© 2024 Nguyen The Vinh</p>
+        </footer>
+    </div>
+</body>
+</html>
